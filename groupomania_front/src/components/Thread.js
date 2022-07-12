@@ -3,8 +3,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getPosts } from "../actions/post.actions";
-
-
 import Card from "./Post/Card";
 import { isEmpty } from "./Utils";
 
@@ -39,7 +37,7 @@ const Thread = () => {
       <ul>
         {!isEmpty(posts[0]) && // On vérifie qu'il y a de la data dans isEmpty
           posts.map((post) => { /// Methode map
-            return <Card post={post} key={post._id} />; // Retourne le components card, les posts en props, et id du post
+            return <Card post={post} key={post._id} />; 
           })}
       </ul>
     </div>
