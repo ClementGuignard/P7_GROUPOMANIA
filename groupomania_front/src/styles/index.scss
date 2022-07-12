@@ -1,0 +1,10 @@
+@import './settings'; //toujours garder les settings scss le plus haut possible ici
+
+
+@import './pages/home';
+@import './components/navbar.scss';
+@import './components/card.scss';
+@import './components/connectionForm.scss';
+@import './components/newPostForm.scss';
+@import './components/trends.scss';
+@import './pages/trending.scss';
