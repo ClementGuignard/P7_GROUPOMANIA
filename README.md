@@ -1,30 +1,24 @@
-Application Groupomania, projet utilisant NODE/REACT/MONGODB.
+Project with : NODE/REACT/MONGODB.
 
-    1 : Vous aurez besoin de NodeJS et npm installés sur votre système.
-    2 : L'application utilise les ports 3000 et 5000
+    1 : You need to have NodeJS and npm install on your machine
+    2 : The application uses ports 3000 and 5000
 
     *******************************
 
     Backend : 
     
-    Executez dans le terminal dans le fichier backend la commande:
+    Execute in the terminal in the backend file the command:
     
     npm install
-
-    Puis,
-
     npm start
      
     Frontend :
-    Executez dans le terminal dans le fichier frontend la commande:
+    Execute in the terminal in the frontend file the command:
     
     npm install
-
-    Puis,
-    
     npm start
     
-    L'application est désormais consultable à l'adresse http://localhost:3000/.
+    You can see the application at :  http://localhost:3000/.
 
     *******************************
 
